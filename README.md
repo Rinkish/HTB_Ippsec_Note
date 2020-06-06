@@ -136,8 +136,8 @@ cat quotes-translated.txt | grep -i password --> -i for ignore case
 cat quotes-translated.txt | grep -i secret
 cat quotes-translated.txt | grep -i key --> Give Some base64 encode values
 
-# echo -n dXnlcjogc2VjdXJpdHkg | base64 -d --> user : security
-# echo -n <other base64 value> | base64 -d --> pass : spanish.is.key
+\# echo -n dXnlcjogc2VjdXJpdHkg | base64 -d --> user : security
+\# echo -n <other base64 value> | base64 -d --> pass : spanish.is.key
 
 
 ssh security@10.10.10.115
